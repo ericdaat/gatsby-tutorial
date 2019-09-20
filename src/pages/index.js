@@ -3,7 +3,7 @@ import Header from "../components/header"
 import { Link } from "gatsby"
 
 export default () => (
-    <div style={{ color: `purple` }}>
+    <div>
         <Link to="/contact/">Contact</Link>
         <Header headerText="About Gatsby"/>
         <h1>Hello Gatsby!</h1>
